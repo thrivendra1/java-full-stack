@@ -1,0 +1,5 @@
+- variables, data types [primitive , non primitive]
+- operators 
+- conditional statements
+- loops, pattern printing
+- break, continue , array [1D,2D] , user defined function , function parameter , function call , return , static , object/instance variable
