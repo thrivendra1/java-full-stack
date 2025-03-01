@@ -1,6 +1,6 @@
 package Module_1;
 
-public class extra
+public class extrasss
 {
     public static void main(String[] args) {
 
