@@ -2,7 +2,7 @@ package Module_1.Day_4;
 
 import java.util.Scanner;
 
-public class Task1_Question_1
+public class Task_Question_1
 {
     public static void main(String[] args) {
         // print 10 50 numbers using loops
