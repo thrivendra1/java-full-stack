@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task_Question_1
 {
     public static void main(String[] args) {
-        // print 10 50 numbers using loops
+        // print 10 to  50 numbers using loops
         Scanner input=new Scanner(System.in);
         System.out.print("Enter Start number: ");
         int start=input.nextInt();
