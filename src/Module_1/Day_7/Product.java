@@ -44,13 +44,13 @@ class ProductMain
         // Loop to accept product details from the user
         for (int i = 0; i < product.length; i++)
         {
-            System.out.print("Enter pid: ");
+            System.out.print("Enter ProductId(Pid): ");
             int pid=Integer.parseInt(input.nextLine());
 
-            System.out.print("Enter price: ");
+            System.out.print("Enter price of the Product: ");
             long price=Long.parseLong(input.nextLine());
 
-            System.out.print("Enter the quantity between : ");
+            System.out.print("Enter the quantity of the product : ");
             int quantity=Integer.parseInt(input.nextLine());
 
             product[i]=new Product(pid,price,quantity);

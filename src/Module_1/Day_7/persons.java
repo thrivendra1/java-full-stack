@@ -3,7 +3,7 @@ package Module_1.Day_7;
 import java.util.Scanner;
 
 /*
-1.4) Define a base class Person with attributes name and age:
+1.4) Define a base class Person with attribute name and age:
 Create a subclass Employee that inherits from Person and adds attributes like employeeID and salary.
 Use the super keyword to initialize the Person attributes in the Employee constructor.
  */
