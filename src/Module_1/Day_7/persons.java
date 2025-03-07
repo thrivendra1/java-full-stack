@@ -2,8 +2,33 @@ package Module_1.Day_7;
 
 import java.util.Scanner;
 
+/*
+1.4) Define a base class Person with attributes name and age:
+Create a subclass Employee that inherits from Person and adds attributes like employeeID and salary.
+Use the super keyword to initialize the Person attributes in the Employee constructor.
+ */
 // Employee class that inherits from Person
-public class Employee extends Person
+
+public class persons {
+    // Creating two variables to store the data of the object
+    public String name;
+    public int age = 18;
+
+    //constructor to initialize name and age
+    public persons(String name, int age) {
+        // The 'this' keyword is used to differentiate between instance variables (global) and local variables.
+        this.name = name;
+        this.age = age;  // The Default age is set to 18
+    }
+
+    // Print the data using display method
+    public void display() {
+        System.out.println("Name: " + this.name);
+        System.out.println("Age : " + this.age);
+    }
+
+}
+ class Employee extends persons
 {
     public int employeeID;
     public double salary;
@@ -38,7 +63,7 @@ public class Employee extends Person
         System.out.print("Enter EmployeeId: ");
         int employeeId=input.nextInt();
 
-        System.out.println("Enter salary:");
+        System.out.print("Enter salary: ");
         double salary=input.nextDouble();
         // Creating an Employee object with user input
         Employee employee=new Employee(userName,userAge,employeeId,salary);

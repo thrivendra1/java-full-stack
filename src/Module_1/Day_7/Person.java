@@ -32,7 +32,19 @@ public class Person
         System.out.println("Age : "+this.age);
     }
 
+    public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter name: ");
+        String userName = input.nextLine();
+        System.out.print("Enter age: ");
+        int userAge = input.nextInt();
+
+        // Creating an object for Person class
+        Person userPerson = new Person(userName, userAge);
+        userPerson.display();
+
+    }
 }
 
 
