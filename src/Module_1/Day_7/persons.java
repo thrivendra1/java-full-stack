@@ -12,7 +12,7 @@ Use the super keyword to initialize the Person attributes in the Employee constr
 public class persons {
     // Creating two variables to store the data of the object
     public String name;
-    public int age = 18;
+    public int age ;
 
     //constructor to initialize name and age
     public persons(String name, int age) {
