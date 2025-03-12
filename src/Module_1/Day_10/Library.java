@@ -3,7 +3,7 @@ package Module_1.Day_10;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Book
+ class Book
 {
     private int bookID;
     private String title;
@@ -52,7 +52,7 @@ public class Book
     }
 }
 
-class Library
+public class Library
 {
 
     public static void main(String[] args) {
