@@ -1,0 +1,120 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.pan-card {
+  width: 800px;
+  height: auto;
+  background: linear-gradient(to right, #b2ebf2, #e0f7fa);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-left {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.top-right {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.emblem {
+  text-align: center;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.pan-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-body {
+  display: flex;
+  margin-top: 10px;
+}
+
+.photo {
+  width: 160px;
+  height: 200px;
+  background-image: url('1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #444;
+  margin-right: 20px;
+}
+
+.details {
+  flex: 1;
+  font-size: 16px;
+}
+
+.details p {
+  margin: 6px 0;
+}
+
+.pan-number {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.qr-section {
+  text-align: right;
+}
+
+.qr-img {
+  width: 160px;
+  height: 160px;
+  background-image: url('image.png'); 
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.dob-signature {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.dob-signature p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.signature {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 18px;
+}
+
+.date {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  font-size: 14px;
+}
